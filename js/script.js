@@ -104,7 +104,7 @@ const movesnake = ( ) => {
 
 const drawgrid = ( ) => {
    ctx.lineWidth = 1
-   ctx.strokeStyle = "green"
+   ctx.strokeStyle = "transparent"
 
     for (let i= 30; i < canvas.width;i += 30){
         ctx.beginPath()
