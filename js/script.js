@@ -64,12 +64,12 @@ const drawfood = ( ) => {
 }
 
 const drawsnake = ( ) => {
-    ctx.fillStyle = "#ddd"
+    ctx.fillStyle = "green"
   
     snake.forEach((position, index) => {
 
         if(index == snake.length -1 ){
-            ctx.fillStyle = "white"
+            ctx.fillStyle = "darkgreen"
 
         }
 
@@ -186,7 +186,7 @@ const gameloop = ( ) => {
   
 loopId = setTimeout(() => {
     gameloop()
-},300) //velocidade da cobrinha//
+},350) //velocidade da cobrinha//
 
 }
 
